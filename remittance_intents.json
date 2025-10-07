@@ -1,0 +1,310 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hello",
+                "hi",
+                "hey",
+                "good morning",
+                "good afternoon",
+                "good evening",
+                "hello there",
+                "hi there",
+                "hey there",
+                "what's up",
+                "howdy",
+                "greetings"
+            ],
+            "responses": [
+                "Hello! Welcome to QuickSend Remittance. How can I help you today?",
+                "Hi there! I'm here to assist with your money transfer needs.",
+                "Welcome to QuickSend! How can I make your transfer experience better?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you",
+                "see ya",
+                "farewell",
+                "take care",
+                "bye bye",
+                "later",
+                "cya",
+                "have a good one"
+            ],
+            "responses": [
+                "Thank you for using QuickSend! Have a great day!",
+                "Goodbye! Stay safe and we look forward to serving you again.",
+                "See you next time! Remember, we're here 24/7 for your remittance needs."
+            ]
+        },
+        {
+            "tag": "transfer_fees",
+            "patterns": [
+                "what are the fees",
+                "how much does it cost to send money",
+                "transfer fees",
+                "sending charges",
+                "what are your charges",
+                "fee structure",
+                "how much fee for transfer",
+                "cost to send money",
+                "what are the charges for remittance",
+                "transfer cost",
+                "how much do you charge",
+                "fee for sending money"
+            ],
+            "responses": [
+                "Our fees start at just $2.99 for transfers up to $500. For amounts above $500, we charge 0.5% of the transfer amount with a maximum fee of $15.",
+                "Transfer fees vary by amount: $0-$500: $2.99, $501-$1000: 0.5%, $1001+: 0.4% (max $25). We always show the exact fee before you confirm.",
+                "We offer competitive pricing: Small transfers ($1-500): $2.99 flat fee, Medium ($501-2000): 0.6%, Large ($2001+): 0.4% (capped at $30)."
+            ]
+        },
+        {
+            "tag": "transfer_limits",
+            "patterns": [
+                "what are the transfer limits",
+                "how much can I send",
+                "maximum transfer amount",
+                "minimum transfer",
+                "sending limits",
+                "daily limit",
+                "monthly limit",
+                "how much money can I transfer",
+                "transfer限额",
+                "what's the max I can send",
+                "is there a limit on transfers",
+                "can I send large amounts"
+            ],
+            "responses": [
+                "Daily limit: $5,000 | Weekly limit: $15,000 | Monthly limit: $50,000. Minimum transfer: $10.",
+                "You can send up to $5,000 per day, $15,000 per week, and $50,000 per month. Minimum amount is $10 per transaction.",
+                "Our limits are: Minimum $10, Maximum daily $5,000, weekly $15,000, monthly $50,000. Limits may vary based on verification level."
+            ]
+        },
+        {
+            "tag": "transfer_time",
+            "patterns": [
+                "how long does transfer take",
+                "when will money arrive",
+                "transfer duration",
+                "how fast is the transfer",
+                "when will recipient get money",
+                "processing time",
+                "how quick are transfers",
+                "delivery time",
+                "how soon will money be available",
+                "transfer speed"
+            ],
+            "responses": [
+                "Most transfers are completed within 24 hours. Bank transfers: 1-2 business days, Cash pickup: Within minutes to 4 hours, Mobile wallet: Instant to 2 hours.",
+                "Transfer speed depends on method: Bank deposits: 1-2 days, Cash pickup: 0-4 hours, Mobile money: Instant-2 hours. We'll provide exact timing before you confirm.",
+                "Standard processing: Bank transfers 1-2 business days, Cash pickup available in minutes at many locations, Mobile wallets typically within 2 hours."
+            ]
+        },
+        {
+            "tag": "supported_countries",
+            "patterns": [
+                "which countries do you support",
+                "where can I send money to",
+                "supported destinations",
+                "available countries",
+                "can I send to [country]",
+                "do you support transfers to [country]",
+                "which countries can I send money to",
+                "international coverage",
+                "global reach",
+                "destination countries"
+            ],
+            "responses": [
+                "We support transfers to 50+ countries including India, Philippines, Mexico, China, Nigeria, Pakistan, Bangladesh, Vietnam, Brazil, and many more.",
+                "QuickSend operates in 50+ countries across Asia, Africa, Europe, and Americas. Popular destinations: India, Philippines, Mexico, Nigeria, Pakistan.",
+                "We cover major remittance corridors: Asia (India, Philippines, China, Vietnam), Africa (Nigeria, Ghana, Kenya), Americas (Mexico, Brazil, Colombia). Check our app for complete list."
+            ]
+        },
+        {
+            "tag": "exchange_rates",
+            "patterns": [
+                "what is the exchange rate",
+                "current rates",
+                "USD to INR rate",
+                "currency conversion",
+                "how much will recipient get",
+                "exchange rate today",
+                "what rate do you offer",
+                "currency rates",
+                "conversion rate",
+                "live exchange rates"
+            ],
+            "responses": [
+                "We offer competitive exchange rates with no hidden fees. Current rate for USD to INR: ₹83.50, USD to PHP: ₱56.20. Rates update every 2 minutes.",
+                "Our exchange rates are market-competitive. For example: USD to INR ~83.50, USD to MXN ~17.20, USD to PHP ~56.15. Check the app for live rates.",
+                "We provide real-time exchange rates with full transparency. Typical spreads are 1-2% above interbank rates. You'll see the exact rate before confirming your transfer."
+            ]
+        },
+        {
+            "tag": "transfer_methods",
+            "patterns": [
+                "how can recipient receive money",
+                "delivery methods",
+                "ways to receive money",
+                "cash pickup locations",
+                "bank transfer options",
+                "mobile wallet transfer",
+                "how is money delivered",
+                "receive methods",
+                "delivery options",
+                "pickup points"
+            ],
+            "responses": [
+                "Recipients can receive via: Bank deposit, Cash pickup at 500,000+ locations worldwide, Mobile wallet transfers, or Home delivery (select countries).",
+                "We offer multiple receive options: 1) Bank transfer to 1000+ banks, 2) Cash pickup at partner locations, 3) Mobile money to popular wallets, 4) Card transfers.",
+                "Your recipient can get money through: Bank account deposit, Cash pickup at agents/partners, Mobile wallet credit, or Direct to card. Choose what works best!"
+            ]
+        },
+        {
+            "tag": "security",
+            "patterns": [
+                "is it safe to send money",
+                "how secure is your app",
+                "security measures",
+                "is my money safe",
+                "data protection",
+                "privacy policy",
+                "encryption",
+                "fraud protection",
+                "how do you protect my information",
+                "safe transfer"
+            ],
+            "responses": [
+                "We use bank-level security: 256-bit SSL encryption, two-factor authentication, transaction monitoring, and we're licensed and regulated in all operating countries.",
+                "Your security is our priority. We employ military-grade encryption, real-time fraud detection, and comply with global financial regulations. Funds are held in segregated accounts.",
+                "QuickSend is fully regulated and uses advanced security: end-to-end encryption, biometric login, transaction alerts, and 24/7 fraud monitoring. Your money and data are protected."
+            ]
+        },
+        {
+            "tag": "account_verification",
+            "patterns": [
+                "how to verify account",
+                "verification process",
+                "KYC requirements",
+                "what documents needed",
+                "identity verification",
+                "why need to verify",
+                "verification steps",
+                "document submission",
+                "how long does verification take",
+                "account approval"
+            ],
+            "responses": [
+                "Verification takes 5-10 minutes. You'll need: Government ID (passport, driver's license), Proof of address (utility bill), and sometimes a selfie. We guide you through each step.",
+                "For full access, verify with: 1) Photo ID, 2) Proof of address, 3) Sometimes a selfie. Process typically completes within 2 hours, often instantly.",
+                "Basic verification requires ID document. Enhanced limits need address proof. We use automated verification that's usually instant, with manual review taking up to 24 hours if needed."
+            ]
+        },
+        {
+            "tag": "transaction_status",
+            "patterns": [
+                "where is my money",
+                "track my transfer",
+                "transaction status",
+                "check transfer progress",
+                "why is transfer delayed",
+                "money not received",
+                "transfer pending",
+                "how to track transaction",
+                "status of my transfer",
+                "when will it be delivered"
+            ],
+            "responses": [
+                "You can track your transfer in real-time through the app's 'Transactions' section. If there's a delay, common reasons include bank processing, holidays, or additional verification.",
+                "Check transaction status in your app under 'My Transfers'. If money hasn't arrived, it could be due to: bank processing time, weekend delays, or need for recipient action.",
+                "Track your transfer in the app. Delays can occur due to: recipient bank processing, public holidays, incomplete recipient details, or security checks. Contact support if concerned."
+            ]
+        },
+        {
+            "tag": "cancel_transfer",
+            "patterns": [
+                "how to cancel transfer",
+                "stop my transaction",
+                "cancel money transfer",
+                "undo transfer",
+                "can I get refund",
+                "reverse transaction",
+                "transfer made by mistake",
+                "want to cancel payment",
+                "stop payment",
+                "recall transfer"
+            ],
+            "responses": [
+                "You can cancel transfers within 30 minutes of sending if status is 'Processing'. Go to Transaction History → Select transfer → Cancel. After 30 minutes, contact support immediately.",
+                "Cancellation is possible if transfer is still processing (usually within 30 minutes). Check your transaction history. If cancellation option is unavailable, contact our support team urgently.",
+                "Quick cancellations available for processing transfers. After funds are sent, cancellation isn't guaranteed but we'll try. Immediate action increases success chances."
+            ]
+        },
+        {
+            "tag": "promotions",
+            "patterns": [
+                "any promotions",
+                "discount codes",
+                "special offers",
+                "first time user discount",
+                "coupon codes",
+                "free transfer",
+                "promotional offers",
+                "waive fees",
+                "special deals",
+                "limited time offer"
+            ],
+            "responses": [
+                "New users get their first transfer free (up to $500)! Existing users: Refer friends to earn $10 bonus each. Check our promotions page for current offers.",
+                "Welcome offer: First transfer fee-free. Regular promotions: Fee discounts on holidays, bonus on referrals, special rates for frequent senders. Watch our app notifications!",
+                "Current promotions: 1) First transfer: No fees, 2) Referral program: $10 credit per friend, 3) Seasonal discounts during festivals. Details in app's Promotion section."
+            ]
+        },
+        {
+            "tag": "customer_support",
+            "patterns": [
+                "contact support",
+                "customer service",
+                "help center",
+                "talk to agent",
+                "support phone number",
+                "email support",
+                "live chat",
+                "get help",
+                "customer care",
+                "technical support"
+            ],
+            "responses": [
+                "We're here 24/7! Call: 1-800-QUICKSEND, Email: support@quicksend.com, Live Chat: In-app, FAQ: Help section. Average response time: < 2 minutes for chat.",
+                "Support options: Phone (24/7): 1-800-123-4567, Email: help@quicksend.com, In-app chat, Social media. For urgent issues, call or use live chat for fastest response.",
+                "Multiple support channels: 1) In-app chat (instant), 2) Phone: 1-800-QUICKSEND (24/7), 3) Email: support@quicksend.com, 4) FAQ knowledge base. We typically respond in minutes."
+            ]
+        },
+        {
+            "tag": "app_issues",
+            "patterns": [
+                "app not working",
+                "login problems",
+                "can't send money",
+                "technical issues",
+                "app crashed",
+                "error message",
+                "transaction failed",
+                "payment declined",
+                "stuck on loading",
+                "can't verify"
+            ],
+            "responses": [
+                "Try these steps: 1) Restart app, 2) Update to latest version, 3) Clear cache, 4) Check internet connection. If issue persists, contact support with screenshot of error.",
+                "Common fixes: Update app, restart device, check internet, clear app cache. For login issues: reset password. If transaction fails, funds will be refunded within 24 hours.",
+                "Technical issues? 1) Ensure app is updated, 2) Stable internet connection, 3) Restart app. Failed transactions are automatically refunded. Contact support with error details."
+            ]
+        }
+    ]
+}
