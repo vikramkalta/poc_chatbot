@@ -9,6 +9,8 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 
+from chatbot_evaluator import ChatbotEvaluator
+
 # Download required NLTK data
 nltk.download('punkt_tab')
 
@@ -38,6 +40,7 @@ class SimpleChatbot:
 
         # Load intents from JSON file
         intents_file = os.path.join(os.path.dirname(__file__), 'remittance_intents.json')
+        # intents_file = os.path.join(os.path.dirname(__file__), 'intents.json')
         with open(intents_file, 'r') as file:
             self.intents = json.load(file)
 
@@ -46,81 +49,163 @@ class SimpleChatbot:
 
     def preprocess_data(self):
         """Prepare training data from intents"""
-        # Extract words and classes
+        # Reset any existing data
+        self.words = []
+        self.classes = []
+        self.training_data = []
+        
+        print("Processing intents...")  # Debug print
+        print(f"Number of intents: {len(self.intents['intents'])}")  # Debug print
+        
+        # First pass: collect all words and classes
         for intent in self.intents['intents']:
-            self.classes.append(intent['tag'])
-            for pattern in intent['patterns']:
+            # Handle both formats: check if 'tag' or 'intent' is used
+            tag = intent.get('tag', intent.get('intent', ''))
+            if not tag:
+                print(f"Warning: Intent missing 'tag' or 'intent' field: {intent}")
+                continue
+                
+            self.classes.append(tag)
+            patterns = intent.get('patterns', [])
+            if not patterns:
+                print(f"Warning: Intent '{tag}' has no patterns")
+                continue
+                
+            for pattern in patterns:
                 # Tokenize and stem each word
-                words = nltk.word_tokenize(pattern)
+                words = nltk.word_tokenize(str(pattern))  # Ensure pattern is string
                 self.words.extend([self.stemmer.stem(word.lower()) for word in words])
 
         # Remove duplicates and sort
         self.words = sorted(list(set(self.words)))
         self.classes = sorted(list(set(self.classes)))
+        
+        print(f"Found {len(self.words)} unique words")  # Debug print
+        print(f"Found {len(self.classes)} classes: {self.classes}")  # Debug print
 
-        # Create training data
+        # Second pass: create training data
+        X = []
+        y = []
+        
         for intent in self.intents['intents']:
-            for pattern in intent['patterns']:
+            tag = intent.get('tag', intent.get('intent', ''))
+            if not tag or tag not in self.classes:
+                continue
+                
+            patterns = intent.get('patterns', [])
+            for pattern in patterns:
                 # Bag of words for pattern
-                bag = self._bag_of_words(pattern)
-
-                # Out row (one-hot encoded)
+                bag = self._bag_of_words(str(pattern))  # Ensure pattern is string
+                X.append(bag)
+                
+                # Create one-hot encoded output
                 output_row = [0] * len(self.classes)
-                output_row[self.classes.index(intent['tag'])] = 1
+                output_row[self.classes.index(tag)] = 1
+                y.append(output_row)
 
-                self.training_data.append([bag, output_row])
+        if not X or not y:
+            raise ValueError("No valid training data found. Check your intents file format.")
+
+        # Convert to numpy arrays
+        X = np.array(X, dtype=np.float32)
+        y = np.array(y, dtype=np.float32)
+        
+        print(f"Created {len(X)} training samples")  # Debug print
+        print(f"Final X shape: {X.shape}, y shape: {y.shape}")  # Debug print
+        return X, y
 
     def _bag_of_words(self, sentence):
-        """Convert sentence to bag of words"""
-        # Tokenize and stem
+        """Convert sentence to bag of words
+        
+        Args:
+            sentence (str): Input sentence to convert to bag of words
+            
+        Returns:
+            list: A bag of words representation of the input sentence
+        """
+        # Tokenize and stem the input sentence
         sentence_words = [self.stemmer.stem(word.lower()) for word in nltk.word_tokenize(sentence)]
-
-        # Initialise bag with 0 for each word
+        
+        # Initialize bag with 0 for each word
         bag = [0] * len(self.words)
-
-        # Set to 1 if word exists in sentence
+        
+        # Mark 1 for each word that exists in the sentence
         for i, word in enumerate(self.words):
             if word in sentence_words:
                 bag[i] = 1
-        
+                
         return bag
 
-    def train_model(self, epochs=1000):
-        """Train the neural network"""
-        self.preprocess_data()
-
-        # Convert to numpy arrays
-        X = np.array([data[0] for data in self.training_data])
-        y = np.array([data[1] for data in self.training_data])
-
-        # Convert to PyTorch tensors
-        X = torch.FloatTensor(X).to(self.device)
-        y = torch.FloatTensor(y).to(self.device)
-
-        # Initialise model
-        input_size = len(X[0])
+    def train_model(self, epochs=1000, batch_size=16):
+        """Train the neural network with batching for memory efficiency
+        
+        Args:
+            epochs (int): Number of training epochs
+            batch_size (int): Number of samples per batch
+        """
+        # Prepare training data
+        X, y = self.preprocess_data()
+        print(f"Raw X shape: {X.shape[0]} samples, {X.shape[1] if len(X.shape) > 1 else 1} features")
+        print(f"Raw y shape: {y.shape[0]} samples, {y.shape[1] if len(y.shape) > 1 else 1} classes")
+        
+        # Convert to PyTorch datasets
+        X_tensor = torch.FloatTensor(X)
+        y_tensor = torch.FloatTensor(y)
+        dataset = torch.utils.data.TensorDataset(X_tensor, y_tensor)
+        dataloader = torch.utils.data.DataLoader(dataset, batch_size=batch_size, shuffle=True)
+        
+        # Initialize model
+        input_size = X.shape[1]
         hidden_size = 8
-        output_size = len(y[0])
-
+        output_size = y.shape[1]
+        
         self.model = NeuralNet(input_size, hidden_size, output_size).to(self.device)
-
+        
         # Loss and optimizer
-        criterion = nn.CrossEntropyLoss()
-        optimizer = optim.Adam(self.model.parameters(), lr=0.001)
-
-        # Training loop
+        criterion = nn.BCEWithLogitsLoss()  # Better for multi-label classification
+        optimizer = optim.Adam(self.model.parameters(), lr=0.001, weight_decay=1e-5)
+        
+        print(f"Training on {self.device}")
+        print(f"Input size: {input_size}, Hidden size: {hidden_size}, Output size: {output_size}")
+        print(f"Batch size: {batch_size}, Total batches: {len(dataloader)}")
+        
+        # Training loop with batching
         for epoch in range(epochs):
-            # Forward pass
-            outputs = self.model(X)
-            loss = criterion(outputs, y)
-
-            # Backward pass and optimize
-            optimizer.zero_grad()
-            loss.backward()
-            optimizer.step()
-
-            if (epoch + 1) % 100 == 0:
-                print(f'Epoch [{epoch+1}/{epochs}], Loss: {loss.item():.4f}')
+            total_loss = 0.0
+            self.model.train()  # Set model to training mode
+            
+            for batch_X, batch_y in dataloader:
+                try:
+                    # Move batch to device
+                    batch_X, batch_y = batch_X.to(self.device), batch_y.to(self.device)
+                    
+                    # Forward pass
+                    outputs = self.model(batch_X)
+                    loss = criterion(outputs, batch_y)
+                    
+                    # Backward pass and optimize
+                    optimizer.zero_grad()
+                    loss.backward()
+                    optimizer.step()
+                    
+                    total_loss += loss.item()
+                    
+                except RuntimeError as e:
+                    if 'out of memory' in str(e):
+                        print("Out of memory error. Try reducing batch size.")
+                        torch.cuda.empty_cache()
+                        return
+                    else:
+                        print(f"Error during training: {e}")
+                        return
+            
+            # Print progress
+            avg_loss = total_loss / len(dataloader)
+            if (epoch + 1) % 10 == 0 or epoch == 0 or epoch == epochs - 1:
+                print(f'Epoch [{epoch+1}/{epochs}], Avg Loss: {avg_loss:.4f}')
+        
+        print("Training completed!")
+        torch.cuda.empty_cache()  # Clean up CUDA cache
 
     def predict(self, sentence):
         """Predict intent for a given sentence"""
@@ -149,28 +234,78 @@ class SimpleChatbot:
         return "Im not sure how respond to that."
 
     
-    def chat(self):
-        """Start interactive chat"""
+    def test_predictions(self, test_phrases=None):
+        """Test the model with some example phrases"""
+        if test_phrases is None:
+            test_phrases = [
+                "How can I verify my account?",
+                "What are your transfer fees?",
+                "How long does a transfer take?",
+                "Which countries do you support?",
+                "What are your transfer limits?",
+                "Hello!"
+            ]
+        
+        print("\nTesting predictions:" + "="*50)
+        for phrase in test_phrases:
+            print(f"\nYou: {phrase}")
+            response = self.predict(phrase)
+            print(f"Chatbot: {response}")
+        print("\n" + "="*60 + "\n")
+
+    def chat(self, interactive=True):
+        """Start interactive chat or run in non-interactive test mode
+        
+        Args:
+            interactive (bool): If True, runs in interactive mode. If False, runs test predictions.
+        """
+        if not interactive:
+            self.test_predictions()
+            return
+            
         print("Chatbot: Hello! I'm a simple FAQ chatbot. Type 'quit' to exit.")
 
         while True:
-            user_input = input("You: ").strip().lower()
+            try:
+                user_input = input("You: ").strip().lower()
 
-            if user_input in ['quit', 'exit', 'bye']:
-                print("Chatbot: Goodbye!")
-                break
+                if user_input in ['quit', 'exit', 'bye']:
+                    print("Chatbot: Goodbye!")
+                    break
 
-            if user_input:
                 response = self.predict(user_input)
                 print(f"Chatbot: {response}")
+            except EOFError:
+                print("\nChatbot: Detected end of input. Switching to test mode...")
+                self.test_predictions()
+                break
 
 # Create and train the chatbot
 if __name__ == "__main__":
     chatbot = SimpleChatbot()
 
+    # Train the model
     print("Training chatbot...")
     chatbot.train_model(epochs=1000)
     print("Training completed!")
+    
+    # Run in non-interactive mode by default for testing
+    # To run interactively, call: chatbot.chat(interactive=True)
+    chatbot.chat(interactive=False)
 
+    # Step 2: Evaluation using trained components
+    print("Step 2: Evaluation Using Model Components")
+    evaluator = ChatbotEvaluator(chatbot)
+    # The evaluation uses EXISTING model components:
+    evaluation_connections = {
+        'chatbot.words': 'Used to convert test sentences to bag-of-words',
+        'chatbot.classes': 'Used as labels for confusion matrix',
+        'chatbot.model': 'Used to make predictions on test data', 
+        'chatbot.training_data': 'Used as source for test/train split',
+        'chatbot._bag_of_words()': 'Used to preprocess test inputs'
+    }
+    
+    for component, usage in evaluation_connections.items():
+        print(f"📌 {component}: {usage}")
     # Start chatting
     chatbot.chat()
