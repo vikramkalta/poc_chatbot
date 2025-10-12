@@ -295,17 +295,16 @@ if __name__ == "__main__":
 
     # Step 2: Evaluation using trained components
     print("Step 2: Evaluation Using Model Components")
-    evaluator = ChatbotEvaluator(chatbot)
-    # The evaluation uses EXISTING model components:
-    evaluation_connections = {
-        'chatbot.words': 'Used to convert test sentences to bag-of-words',
-        'chatbot.classes': 'Used as labels for confusion matrix',
-        'chatbot.model': 'Used to make predictions on test data', 
-        'chatbot.training_data': 'Used as source for test/train split',
-        'chatbot._bag_of_words()': 'Used to preprocess test inputs'
-    }
-    
-    for component, usage in evaluation_connections.items():
-        print(f"📌 {component}: {usage}")
+    # Create and run the evaluator
+    evaluator = SimpleChatbotEvaluator(chatbot)
+    results = evaluator.evaluate()
+
+    # Test specific phrases
+    evaluator.test_specific_phrases([
+        "How do I send money?",
+        "What's the exchange rate?",
+        "I need help with a transaction"
+    ])
+
     # Start chatting
     chatbot.chat()
