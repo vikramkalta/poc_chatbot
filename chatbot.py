@@ -9,7 +9,8 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 
-from chatbot_evaluator import ChatbotEvaluator
+from simple_evaluator import SimpleChatbotEvaluator
+
 
 # Download required NLTK data
 nltk.download('punkt_tab')
@@ -17,18 +18,24 @@ nltk.download('punkt_tab')
 class NeuralNet(nn.Module):
     def __init__(self, input_size, hidden_size, output_size):
         super(NeuralNet, self).__init__()
-        self.layer1 = nn.Linear(input_size, hidden_size)
-        self.layer2 = nn.Linear(hidden_size, hidden_size)
-        self.layer3 = nn.Linear(hidden_size, output_size)
+        self.layer1 = nn.Linear(input_size, 128)
+        self.layer2 = nn.Linear(128, 64)
+        self.layer3 = nn.Linear(64, 32)
+        self.output_layer = nn.Linear(32, output_size)
         self.relu = nn.ReLU()
         self.dropout = nn.Dropout(0.5)
 
     def forward(self, x):
         x = self.relu(self.layer1(x))
         x = self.dropout(x)
+        
         x = self.relu(self.layer2(x))
         x = self.dropout(x)
-        x = self.layer3(x)
+
+        x = self.relu(self.layer3(x))
+        x = self.dropout(x)
+
+        x = self.output_layer(x)
         return x
 
 class SimpleChatbot:
