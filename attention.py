@@ -1,5 +1,10 @@
 import torch
 
+from causal_attention import CausalAttention
+from multi_head_attention_wrapper import MultiHeadAttentionWrapper
+from self_attention import SelfAttention_v1
+from self_attention_v2 import SelfAttention_v2
+
 inputs = torch.tensor(
   [[0.43, 0.15, 0.89], # Your     (x^1)
    [0.55, 0.87, 0.66], # journey  (x^2)
@@ -94,4 +99,67 @@ print(attn_scores_2)
 d_k = keys.shape[1]
 attn_weights_2 = torch.softmax(attn_scores_2 / d_k**0.5, dim=-1)
 print(attn_weights_2)
-print()
+# print()
+
+context_vec_2 = attn_weights_2 @ values
+print(context_vec_2)
+
+torch.manual_seed(123)
+sa_v1 = SelfAttention_v1(d_in, d_out)
+print(sa_v1(inputs))
+
+torch.manual_seed(789)
+sa_v2 = SelfAttention_v2(d_in, d_out)
+print(sa_v2(inputs))
+
+queries = sa_v2.W_query(inputs)
+keys = sa_v2.W_key(inputs)
+attn_scores = queries @ keys.T
+
+attn_weights = torch.softmax(attn_scores / keys.shape[-1]**0.5, dim=-1)
+# print("Manual attention weights:", attn_weights)
+
+context_length = attn_scores.shape[0]
+mask_simple = torch.tril(torch.ones(context_length, context_length))
+# print("Mask:", mask_simple)
+
+masked_simple = attn_weights * mask_simple
+print("Masked attention weights:", masked_simple)
+
+row_sums = masked_simple.sum(dim=-1, keepdim=True)
+masked_simple_norm = masked_simple / row_sums
+# print(masked_simple_norm)
+
+torch.manual_seed(123)
+dropout = torch.nn.Dropout(0.5) # dropout rate of 50%
+example = torch.ones(6, 6) # create a matrix of ones
+# print("After dropout:", dropout(example))
+
+torch.manual_seed(123)
+print(dropout(attn_weights))
+
+batch = torch.stack((inputs, inputs), dim=0)
+print(batch.shape) # 2 inputs with 6 tokens each, and each token has embedding dimension 3
+print("Batch example:", batch)
+
+torch.manual_seed(123)
+
+context_length = batch.shape[1]
+ca = CausalAttention(d_in, d_out, context_length, 0.0)
+
+context_vecs = ca(batch)
+# print("Context vectors:", context_vecs)
+# print("Context vectors shape:", context_vecs.shape)
+
+torch.manual_seed(123)
+
+context_length = batch.shape[1] # This is the number of tokens
+d_in, d_out = 3, 2
+mha = MultiHeadAttentionWrapper(
+  d_in, d_out, context_length, 0.0, num_heads=2
+)
+
+context_vecs = mha(batch)
+print(context_vecs)
+print("Multi-head attention output shape:", context_vecs.shape)
+
