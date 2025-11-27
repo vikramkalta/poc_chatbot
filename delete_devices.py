@@ -5,21 +5,16 @@ AUTH_TOKEN = "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJtUFpKMEMyQUphZV
 
 # List of device IDs to delete
 device_ids = [
-    "012b56cd-d687-4fe0-ac7f-12a3395928e3",
-    "567232a7-7a3c-4f6b-aca1-c2bad23103a1",
-    "63557bd0-f3a5-409e-87ac-80fb97fe07c7",
-    "6bb71ed2-2d2b-488a-9779-2dcebbc2e834",
-    "7059cdf6-a493-4c28-b4ce-5b5e89e4da89",
-    "71f67dc2-9bbe-49f9-8dec-9e18a9e76e07",
-    "75021a2c-1f3b-40f4-97eb-27680a65e7d1",
-    "7c873226-aaf0-486b-8fa7-0d502ade9cf2",
-    "8a018798-277a-4fdc-89a9-9770deb48d21",
-    "9391ad05-278c-46c6-a1dd-0d5f6b0cf6f2",
-    "954ec633-f36e-4951-8679-026c5651b8b6",
-    "a52f174a-8868-468c-9308-de56bcd90e78",
-    "adf6072b-bbbe-4c35-9028-9703c2aa7ab2",
-    "dc613608-1b4c-4aaa-90fe-09e2668df64f",
-    "de5a712c-7b39-4b7e-91e8-85f42bd29aa5",
+"0f6cf967-e998-41ae-af3e-a908a85d437f",
+"5d6d660a-0fed-4500-9f1a-86355c8dcf68",
+"6b6c051f-7cb9-460a-9d97-289dcf7cc7fb",
+"7f008782-f995-41fe-af57-5f37106e95af",
+"8c42f64e-911a-4c01-b100-980efce6814c",
+"a43a825c-f130-47d5-8379-e3abb1514acf",
+"a9b46b2d-81fb-4bd4-b540-51941e6f66c7",
+"b3cbc900-3d5e-4190-9b0d-da820ee456fd",
+"c477e4e8-da83-4245-a78f-b4a4c9c97ce3",
+"cdcfe133-d86d-4424-b514-34ee1a3045ba"
 ]
 
 headers = {

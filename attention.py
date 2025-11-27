@@ -154,10 +154,9 @@ context_vecs = ca(batch)
 torch.manual_seed(123)
 
 context_length = batch.shape[1] # This is the number of tokens
-d_in, d_out = 3, 2
-mha = MultiHeadAttentionWrapper(
-  d_in, d_out, context_length, 0.0, num_heads=2
-)
+batch_size, context_length, d_in = batch.shape
+d_out = 2
+mha = MultiHeadAttentionWrapper(d_in, d_out, context_length, 0.0, num_heads=2)
 
 context_vecs = mha(batch)
 print(context_vecs)
