@@ -1,0 +1,33 @@
+import requests
+
+BASE_URL = "https://staging.borga.money/borga/user/api/v1/devices"
+AUTH_TOKEN = "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJtUFpKMEMyQUphZVl3TU5PQm9sSU9pRVVocy1INlhRUkh6SDlUcXVjekxZIn0.eyJleHAiOjE3NjYyNTQ0ODAsImlhdCI6MTc2MzY2MjQ4MCwianRpIjoiNTVmYTM3M2ItYTdkNi00YWMyLWEzMzEtYTAwNGQ0MzVmMzFiIiwiaXNzIjoiaHR0cHM6Ly9zdGFnaW5nLmJvcmdhLm1vbmV5L3JlYWxtcy9ib3JnYS1kZXYiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMTEwYjExOGMtYWM0MS00MDQ1LTkzNGMtMTIzMjMwYTE0ZTVjIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoidXNlcl9zZXJ2aWNlIiwic2Vzc2lvbl9zdGF0ZSI6IjIwNDcxMzg4LTAyNWMtNDIzYi1iZTRkLTM5NzNkZTQzZjA0OCIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiYm9yZ2FfY3JlYXRlX21lcmNoYW50IiwiYm9yZ2Ffc2V0X2ZvcmV4X3JhdGUiLCJib3JnYV91cGRhdGVfbWVyY2hhbnQiLCJib3JnYV92aWV3X3RyYW5zYWN0aW9ucyIsImJvcmdhX3VwZGF0ZV9kZWxpdmVyeV9hY2NvdW50IiwiYm9yZ2Ffdmlld19hdWRpdF90cmFpbCIsImRlZmF1bHQtcm9sZXMtYm9yZ2EtZGV2IiwiYm9yZ2FfbWFuYWdlX2RlbGl2ZXJpZXMiLCJvZmZsaW5lX2FjY2VzcyIsImJvcmdhX2Rpc3B1dGVfcmVzb2x1dGlvbiIsImJvcmdhX2NyZWF0ZV9kZWxpdmVyeV9hY2NvdW50IiwiYm9yZ2FfY3JlYXRlX2VtcGxveWVlIiwiYm9yZ2FfdXBkYXRlX2FkbWluIiwidW1hX2F1dGhvcml6YXRpb24iLCJib3JnYV9yZXBvcnRpbmciLCJib3JnYV9tYW5hZ2Vfb3JkZXJzIiwiYm9yZ2FfdXBkYXRlX2VtcGxveWVlIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJlbWFpbCBwcm9maWxlIiwic2lkIjoiMjA0NzEzODgtMDI1Yy00MjNiLWJlNGQtMzk3M2RlNDNmMDQ4IiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJuYW1lIjoiRGl2aW5lIEV0ZWJhIiwicHJlZmVycmVkX3VzZXJuYW1lIjoiMjMzNTQzMzA4NDYyQG4vYS5ib3JnYSIsImdpdmVuX25hbWUiOiJEaXZpbmUiLCJmYW1pbHlfbmFtZSI6IkV0ZWJhIiwiZW1haWwiOiJldGViYWRpdmluZTM1OEBnbWFpbC5jb20ifQ.ORfBV6Qt-z5aKT1aRj41TLejliqR6AUxa2mk4xlDBjDVA6f_0mN2aZ_tkP10ReWONJSAWjfYuoQBWLv4iaw0hMkJ-7UecPJOYhVIe9FO2619aPvs6Te0BTdnMdfSW9pb58jReugFWky0mgf3iCaaE23m9EYYepDxXgF0c5nIoxCaThEeINugYIouwsWpIsPSjoGdf2Zder8usmqIGRvssMfqbKdDP0ws_7WXd2DISoeX0tEet3H4wP7ojVE7c2hc_3ESVsY84dAwtnYSwrz2lFds8b0MWj6_XlUm_-e2VjJY5uhtm9RRZhYrCZAozWo0Yl6fCrLgYPZITWLrT89GBg"   # <-- replace with real token
+
+# List of device IDs to delete
+device_ids = [
+"0f6cf967-e998-41ae-af3e-a908a85d437f",
+"5d6d660a-0fed-4500-9f1a-86355c8dcf68",
+"6b6c051f-7cb9-460a-9d97-289dcf7cc7fb",
+"7f008782-f995-41fe-af57-5f37106e95af",
+"8c42f64e-911a-4c01-b100-980efce6814c",
+"a43a825c-f130-47d5-8379-e3abb1514acf",
+"a9b46b2d-81fb-4bd4-b540-51941e6f66c7",
+"b3cbc900-3d5e-4190-9b0d-da820ee456fd",
+"c477e4e8-da83-4245-a78f-b4a4c9c97ce3",
+"cdcfe133-d86d-4424-b514-34ee1a3045ba"
+]
+
+headers = {
+    "Content-Type": "application/json",
+    "Authorization": f"Bearer {AUTH_TOKEN}"
+}
+
+for device_id in device_ids:
+    url = f"{BASE_URL}/{device_id}"
+    response = requests.delete(url, headers=headers)
+
+    print(f"Deleting {device_id} -> Status: {response.status_code}")
+    try:
+        print("Response:", response.json())
+    except:
+        print("No JSON response")
