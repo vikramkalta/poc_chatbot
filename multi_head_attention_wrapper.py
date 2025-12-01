@@ -26,7 +26,7 @@ class MultiHeadAttentionWrapper(nn.Module):
     self.register_buffer("mask", torch.triu(torch.ones(context_length, context_length), diagonal=1))
   
   def forward(self, x):
-    import pdb; pdb.set_trace()
+    # import pdb; pdb.set_trace()
 
     b, num_tokens, d_in = x.shape
     # As in `CausalAttention`, for inputs where `num_tokens` exceeds `context_length`
