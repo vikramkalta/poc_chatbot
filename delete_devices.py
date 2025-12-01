@@ -5,16 +5,7 @@ AUTH_TOKEN = "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJtUFpKMEMyQUphZV
 
 # List of device IDs to delete
 device_ids = [
-"0f6cf967-e998-41ae-af3e-a908a85d437f",
-"5d6d660a-0fed-4500-9f1a-86355c8dcf68",
-"6b6c051f-7cb9-460a-9d97-289dcf7cc7fb",
-"7f008782-f995-41fe-af57-5f37106e95af",
-"8c42f64e-911a-4c01-b100-980efce6814c",
-"a43a825c-f130-47d5-8379-e3abb1514acf",
-"a9b46b2d-81fb-4bd4-b540-51941e6f66c7",
-"b3cbc900-3d5e-4190-9b0d-da820ee456fd",
-"c477e4e8-da83-4245-a78f-b4a4c9c97ce3",
-"cdcfe133-d86d-4424-b514-34ee1a3045ba"
+"4fe41ddf-9e8f-4a03-8e51-7d7af894d501",
 ]
 
 headers = {
