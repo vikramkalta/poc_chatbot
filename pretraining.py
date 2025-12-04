@@ -538,4 +538,4 @@ else:
 print("Device:", device)
 
 model.load_state_dict(torch.load("model.pth", map_location=device, weights_only=True))
-model.eval();
+model.eval()
