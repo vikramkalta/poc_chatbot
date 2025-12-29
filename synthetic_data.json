@@ -1,0 +1,3752 @@
+[
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Forgot PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Submit verification documents",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Wrongful transaction",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Double debit transaction",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Unable to log in",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Forgot PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Did not get OTP",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Upload KYC document",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Selfie verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Money deducted twice",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "OTP not received",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Lost my card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "App login issue",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Duplicate transaction",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Verification code issue",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Download statement",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "App login issue",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "How much can I send per day?",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Money sent but pending",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Account statement request",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Upload selfie for verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily rate enquiry",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "How much can I send per day?",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Verification code issue",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Download statement",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "App login issue",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Replace card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily rate enquiry",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Order new card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Change PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "OTP expired",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Unable to log in",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Submit verification documents",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Charged two times",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Selfie verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Selfie upload failed",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Payment sent by mistake",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Change PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transfer shows pending",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction limit",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Change PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Unable to log in",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "OTP expired",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Lost my card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Payment pending after completion",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Where can I see the rate?",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Reset PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Change PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Download statement",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Amount debited twice",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Account statement request",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Where can I see the rate?",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Selfie verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Verification code issue",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Duplicate transaction",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction rate info",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transfer shows pending",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Money sent but pending",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Cannot sign in",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "App login issue",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Did not get OTP",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction limit",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Pending transaction status",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card payment failed",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Download statement",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Selfie verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Reset PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Need receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "OTP not received",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction rate info",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Did not get OTP",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Order new card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Replace card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Forgot PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Change PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Account statement request",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Liveliness test",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Exchange rate today",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card payment failed",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Cannot sign in",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Lost my card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Replace card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Change PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Reset PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transfer shows pending",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Replace card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Verification code issue",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card payment failed",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Liveliness test",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Account statement request",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Amount debited twice",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Money deducted twice",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Upload selfie for verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "App login issue",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Why am I asked for a selfie?",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Payment pending after completion",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Lost my card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Payment sent by mistake",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Money deducted twice",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Cannot sign in",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Where can I see the rate?",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card not working",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card payment failed",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Double debit transaction",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Liveliness test",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "KYC upload not working",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Lost my card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "OTP expired",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Upload KYC document",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Unable to log in",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Amount debited twice",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Document verification step",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Why am I asked for a selfie?",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Charged two times",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "PIN issue",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Money deducted twice",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Pending transaction status",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Did not get OTP",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Duplicate transaction",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Need receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Amount debited twice",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Selfie upload failed",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Exceeded daily limit",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction rate info",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Unable to log in",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Forgot PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Unable to upload ID",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Cannot sign in",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Download statement",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Double debit transaction",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Money deducted twice",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Debit card issue",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Exchange rate today",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Payment sent by mistake",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Amount debited twice",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card not working",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Upload selfie for verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Forgot PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Selfie verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Payment pending after completion",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card details update issue",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Duplicate transaction",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Where do I upload my documents?",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily rate enquiry",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Where can I see the rate?",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Need receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Payment sent by mistake",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "App login issue",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Money sent but pending",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Wrongful transaction",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "KYC upload not working",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Unable to log in",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Cannot sign in",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Upload KYC document",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Did not get OTP",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Lost my card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "KYC upload not working",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Selfie verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Why am I asked for a selfie?",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Selfie verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily rate enquiry",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "OTP expired",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "OTP not received",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "OTP not received",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Where can I see the rate?",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Wrongful transaction",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Change PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Charged two times",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Exchange rate today",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Change PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "CVV problem",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Download statement",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Unable to upload ID",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "OTP not received",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Why am I asked for a selfie?",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Money deducted twice",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Wrongful transaction",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily limit enquiry",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Charged two times",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Wrongful transaction",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card not working",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Cannot sign in",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "OTP not received",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Change PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Forgot PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transfer shows pending",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Upload selfie for verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Login challenge",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Incorrect transfer",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "OTP expired",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Cannot sign in",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Charged two times",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card replacement request",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Sent money to wrong person",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Selfie upload failed",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Sent money to wrong person",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Document verification step",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Change PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Payment pending after completion",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card replacement request",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Replace card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Upload selfie for verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Login challenge",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Replace card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily transfer cap",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Lost my card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Exchange rate today",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Document verification step",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily limit enquiry",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction limit",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Reset PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Forgot PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily transfer cap",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Exchange rate today",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Double debit transaction",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily rate enquiry",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transfer shows pending",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Need receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Wrongful transaction",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Download statement",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily rate enquiry",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Debit card issue",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Duplicate transaction",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "How much can I send per day?",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Amount debited twice",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Reset PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Where can I see the rate?",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Sent money to wrong person",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Account statement request",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily transfer cap",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Where can I see the rate?",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Upload KYC document",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Wrongful transaction",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Verification code issue",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Upload KYC document",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Did not get OTP",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "How much can I send per day?",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily rate enquiry",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Exchange rate today",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Sent money to wrong person",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "App login issue",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "KYC upload not working",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Exceeded daily limit",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Liveliness test",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Verification code issue",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Forgot PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Cannot sign in",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Order new card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "PIN issue",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Exceeded daily limit",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Cannot sign in",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Lost my card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Duplicate transaction",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "PIN issue",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Reset PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Verification code issue",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily rate enquiry",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Incorrect transfer",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Duplicate transaction",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Account statement request",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card details update issue",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Debit card issue",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card replacement request",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Forgot PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Incorrect transfer",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Selfie verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Change PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Double debit transaction",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction pending",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Where do I upload my documents?",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card not working",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Download statement",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card details update issue",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Reset PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "App login issue",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card details update issue",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Double debit transaction",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Forgot PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Download statement",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Need receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Double debit transaction",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Need receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "KYC upload not working",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Amount debited twice",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Debit card issue",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Need receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Change PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Need receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Did not get OTP",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card replacement request",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Payment pending after completion",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "CVV problem",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Change PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Need receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Reset PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Payment sent by mistake",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Liveliness test",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Charged two times",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "How much can I send per day?",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Replace card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Money sent but pending",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Duplicate transaction",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Login challenge",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Login challenge",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Selfie upload failed",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Where can I see the rate?",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card replacement request",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily rate enquiry",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Duplicate transaction",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily rate enquiry",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Need receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card payment failed",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "How much can I send per day?",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Need receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Exchange rate today",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Debit card issue",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Payment sent by mistake",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card payment failed",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Where can I see the rate?",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "PIN issue",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Login challenge",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Debit card issue",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "OTP not received",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily rate enquiry",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Selfie upload failed",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Payment pending after completion",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction pending",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Payment sent by mistake",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction limit",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "CVV problem",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Exceeded daily limit",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Payment sent by mistake",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Sent money to wrong person",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card payment failed",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Unable to log in",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction limit",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Forgot PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Download statement",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Download statement",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Double debit transaction",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "KYC upload not working",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Money sent but pending",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Payment pending after completion",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Forgot PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "OTP expired",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "CVV problem",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Account statement request",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Pending transaction status",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "OTP not received",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Sent money to wrong person",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "OTP not received",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Payment sent by mistake",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Exchange rate today",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Why am I asked for a selfie?",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Login challenge",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Liveliness test",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Forgot PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Download statement",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily transfer cap",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Where can I see the rate?",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Why am I asked for a selfie?",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Change PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Unable to upload ID",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card payment failed",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Where can I see the rate?",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "PIN issue",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Login challenge",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Exchange rate today",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Cannot sign in",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Did not get OTP",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card details update issue",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Cannot sign in",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction limit",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Liveliness test",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Debit card issue",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Need receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Did not get OTP",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily limit enquiry",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "CVV problem",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Payment pending after completion",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Charged two times",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Account statement request",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "How much can I send per day?",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Verification code issue",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Replace card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Lost my card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Selfie verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "App login issue",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card not working",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "App login issue",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "PIN issue",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card payment failed",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Liveliness test",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Duplicate transaction",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Login challenge",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Incorrect transfer",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card not working",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Order new card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Where can I see the rate?",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Exceeded daily limit",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Incorrect transfer",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Wrongful transaction",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Selfie verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily limit enquiry",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Login challenge",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Double debit transaction",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "App login issue",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Incorrect transfer",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Selfie verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Wrongful transaction",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction limit",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Sent money to wrong person",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Login challenge",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Sent money to wrong person",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "KYC upload not working",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Wrongful transaction",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "PIN issue",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Upload selfie for verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Verification code issue",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card details update issue",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "CVV problem",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction pending",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Payment sent by mistake",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Upload selfie for verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction rate info",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Why am I asked for a selfie?",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Forgot PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Money sent but pending",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Account statement request",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Selfie verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Why am I asked for a selfie?",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Need receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "OTP expired",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Need receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card details update issue",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Payment sent by mistake",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Sent money to wrong person",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "OTP not received",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Reset PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Sent money to wrong person",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Money sent but pending",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Pending transaction status",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Selfie verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Unable to upload ID",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card not working",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "CVV problem",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Where do I upload my documents?",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Incorrect transfer",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "App login issue",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Selfie verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Wrongful transaction",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily rate enquiry",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Lost my card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Reset PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Wrongful transaction",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Upload selfie for verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transfer shows pending",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Verification code issue",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card payment failed",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "CVV problem",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "App login issue",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Payment sent by mistake",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card payment failed",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "OTP not received",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Where can I see the rate?",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Verification code issue",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Upload KYC document",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Money deducted twice",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "OTP not received",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Account statement request",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "OTP not received",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card not working",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "PIN issue",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Wrongful transaction",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Did not get OTP",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "PIN issue",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Selfie upload failed",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Exceeded daily limit",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "How much can I send per day?",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Forgot PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transfer shows pending",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction rate info",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Payment sent by mistake",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Download statement",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card payment failed",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "How much can I send per day?",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily limit enquiry",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Need receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Replace card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "PIN issue",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily rate enquiry",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Money deducted twice",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily transfer cap",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Need receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "PIN issue",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Download statement",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Charged two times",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Lost my card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Payment sent by mistake",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "App login issue",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Upload selfie for verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Reset PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Login challenge",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Sent money to wrong person",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card replacement request",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Selfie verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Selfie upload failed",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Selfie verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "CVV problem",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Order new card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction rate info",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Debit card issue",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card not working",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Payment pending after completion",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Money deducted twice",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Lost my card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Liveliness test",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Need receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily transfer cap",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Sent money to wrong person",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Incorrect transfer",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Did not get OTP",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Payment pending after completion",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card replacement request",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "How much can I send per day?",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card replacement request",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "CVV problem",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Double debit transaction",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Did not get OTP",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Duplicate transaction",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Document verification step",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "App login issue",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "App login issue",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Exchange rate today",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card payment failed",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Pending transaction status",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Verification code issue",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Selfie upload failed",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Why am I asked for a selfie?",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card payment failed",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Login challenge",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Exchange rate today",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Selfie upload failed",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Account statement request",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily transfer cap",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "App login issue",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Forgot PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily transfer cap",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Where can I see the rate?",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "PIN issue",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Replace card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "OTP not received",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Charged two times",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Amount debited twice",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily rate enquiry",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Download statement",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Debit card issue",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Cannot sign in",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Upload KYC document",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily limit enquiry",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Incorrect transfer",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Exceeded daily limit",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Money sent but pending",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card replacement request",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "OTP expired",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Money sent but pending",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Why am I asked for a selfie?",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Exchange rate today",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card not working",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Money sent but pending",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "CVV problem",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "CVV problem",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Forgot PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Need receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Wrongful transaction",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Selfie upload failed",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily transfer cap",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Payment sent by mistake",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Cannot sign in",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "CVV problem",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Duplicate transaction",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card payment failed",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Duplicate transaction",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Verification code issue",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Verification code issue",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Cannot sign in",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Submit verification documents",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Where can I see the rate?",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "KYC upload not working",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Forgot PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Did not get OTP",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Wrongful transaction",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Verification code issue",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Double debit transaction",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Verification code issue",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Reset PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Forgot PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Forgot PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Payment sent by mistake",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "KYC upload not working",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction limit",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Liveliness test",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Exceeded daily limit",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Money sent but pending",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Pending transaction status",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily transfer cap",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Order new card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transfer shows pending",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "CVV problem",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Cannot sign in",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Download statement",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card payment failed",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Money sent but pending",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "PIN issue",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Account statement request",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Selfie upload failed",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Document verification step",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Replace card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "CVV problem",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Change PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Did not get OTP",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Change PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Selfie verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card payment failed",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Verification code issue",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "OTP expired",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Forgot PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "PIN issue",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Cannot sign in",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "PIN issue",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Selfie verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Upload KYC document",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Payment sent by mistake",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Upload selfie for verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Money deducted twice",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Payment pending after completion",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "CVV problem",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "PIN issue",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "OTP expired",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily rate enquiry",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card not working",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Where can I see the rate?",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Submit verification documents",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction limit",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card details update issue",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Charged two times",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Liveliness test",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Order new card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Unable to upload ID",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Wrongful transaction",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Selfie upload failed",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Selfie verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Forgot PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Document verification step",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Double debit transaction",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Why am I asked for a selfie?",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Money deducted twice",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Double debit transaction",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction limit",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Download statement",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Wrongful transaction",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Pending transaction status",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Wrongful transaction",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Upload selfie for verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction pending",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction limit",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Verification code issue",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Where do I upload my documents?",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Sent money to wrong person",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Payment pending after completion",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Replace card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Unable to log in",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card details update issue",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Account statement request",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Replace card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card not working",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Money deducted twice",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Submit verification documents",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Account statement request",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card payment failed",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Unable to upload ID",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction rate info",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Forgot PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card details update issue",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Upload selfie for verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily transfer cap",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction pending",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transfer shows pending",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Verification code issue",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Where can I see the rate?",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card not working",
+    "output": "Please contact customer care at +447777777777 for assistance with card-related issues."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Did not get OTP",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Upload selfie for verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Reset PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction rate info",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Duplicate transaction",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Exceeded daily limit",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction rate info",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Unable to log in",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Exceeded daily limit",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "How much can I send per day?",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction limit",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "PIN issue",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Upload selfie for verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Upload selfie for verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily rate enquiry",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Cannot sign in",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Transaction receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Replace card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Verification code issue",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Forgot PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Where can I see the rate?",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "PIN issue",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Unable to log in",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Incorrect transfer",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily limit enquiry",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "OTP expired",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Payment pending after completion",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Amount debited twice",
+    "output": "Please reach out to customer care immediately at +447777777777 for assistance with a double debit transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily transfer cap",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily limit enquiry",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Account statement request",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "OTP expired",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Need receipt",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Replace card",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Verification code issue",
+    "output": "Tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Where do I upload my documents?",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Incorrect transfer",
+    "output": "Please contact customer care at +447777777777 to raise a reversal request."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "How much can I send per day?",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Where do I upload my documents?",
+    "output": "Open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Pending transaction status",
+    "output": "Please check with the recipient to confirm receipt. If the amount is not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "PIN issue",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Selfie verification",
+    "output": "After completing document upload, you will be automatically redirected to the liveliness test to upload your selfie."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Unable to log in",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  }
+]

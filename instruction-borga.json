@@ -1,0 +1,107 @@
+[
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Uploading a document for verification",
+    "output": "Follow these steps: open the app, tap on Verify Documents at the top, and you will be navigated to the KYC document upload screen."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Uploading a selfie for verification",
+    "output": "After the user reaches the document upload screen, they will be automatically redirected to the liveliness test. Upload the selfie there to complete the process."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Manual verification challenge (Mitek vs Metabase discrepancy)",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Address, phone number, or email update",
+    "output": "The customer must send an email along with an ID document for verification and approval of the requested change."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Double debit transaction",
+    "output": "Please reach out to customer care as soon as possible at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Wrongful transaction",
+    "output": "Raise a reversal request by contacting customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Pending transaction",
+    "output": "Please check with the recipient to confirm if the money has been received. Sometimes the status shows as pending even after completion. If not received, contact customer care at +447777777777."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily limit enquiry",
+    "output": "The daily transaction limit is GBP 5000."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Daily rate enquiry",
+    "output": "The daily rate is displayed when you attempt to perform a transaction."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Merchant service enquiry",
+    "output": "Please reach out to customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Debit card challenges (card details, CVV, update issues)",
+    "output": "Please contact customer care at +447777777777 for support."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Card replacement",
+    "output": "Use the \"Replace Card\" feature in the app to request a new card."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Reversal or refund enquiry",
+    "output": "Please reach out to customer care at +447777777777 for further assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "How to change PIN",
+    "output": "Click on the \"Reset\" option on the Sign In page to change your PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Statement or receipt request",
+    "output": "Use the statement request feature available in the app."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "OTP code challenge",
+    "output": "If the OTP has expired or did not arrive, tap the \"Resend OTP\" button on the OTP screen to receive a new code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Country code challenge",
+    "output": "Please provide the appropriate country code."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Expired session on the app",
+    "output": "Log in again. If you have forgotten your PIN, use the reset PIN option on the Sign In page."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "PIN reset",
+    "output": "Ask the customer to log in again to reset their PIN."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Login challenge",
+    "output": "Please contact customer care at +447777777777 for assistance."
+  },
+  {
+    "instruction": "Provide guidance for the following user query.",
+    "input": "Replace card feature",
+    "output": "The replace card feature is not easily accessible or easy to find within the app."
+  }
+]

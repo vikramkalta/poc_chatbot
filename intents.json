@@ -1,0 +1,65 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hi", "hello", "hey", "good day", "greetings", "hi there"
+            ],
+            "responses": [
+                "Hello! How can I help you today?",
+                "Hi there! What can I do for you?",
+                "Hey! How can I assist you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye", "goodbye", "see you", "see ya", "farewell"
+            ],
+            "responses": [
+                "Goodbye! Have a great day!",
+                "See you later!",
+                "Bye! Come back if you have more questions."
+            ]
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "when are you open", "what are your hours", "when do you open",
+                "opening hours", "business hours"
+            ],
+            "responses": [
+                "We're open Monday to Friday, 9 AM to 5 PM.",
+                "Our hours are 9 AM - 5 PM, Monday through Friday."
+            ]
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "where are you located", "what is your address", 
+                "where can i find you", "location"
+            ],
+            "responses": [
+                "We are located at 123 Main Street, Tech City, TC 12345.",
+                "Our office is at 123 Main Street, Tech City, TC 12345."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["thanks", "thank you", "thanks a lot", "appreciate it"],
+            "responses": [
+                "You're welcome!",
+                "Happy to help!",
+                "No problem at all!"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": ["what's your name", "who are you", "what are you called"],
+            "responses": [
+                "I'm a simple FAQ chatbot.",
+                "You can call me ChatBot."
+            ]
+        }
+    ]
+}
