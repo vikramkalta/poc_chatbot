@@ -1,17 +1,17 @@
 from test import vocab
 import re
 
+
 class SimpleTokenizerV1:
     def __init__(self, vocab):
         self.str_to_int = vocab
-        self.int_to_str = {i:s for s,i in vocab.items()}
+        self.int_to_str = {i: s for s, i in vocab.items()}
 
     def encode(self, text):
         preprocessed = re.split(r'([,.:;?_!"()\']|--|\s)', text)
         preprocessed = [item.strip() for item in preprocessed if item.strip()]
         preprocessed = [
-            item if item in self.str_to_int
-            else "<|unk|>" for item in preprocessed
+            item if item in self.str_to_int else "<|unk|>" for item in preprocessed
         ]
         ids = [self.str_to_int[s] for s in preprocessed]
         return ids
@@ -19,9 +19,10 @@ class SimpleTokenizerV1:
     def decode(self, ids):
         text = " ".join([self.int_to_str[i] for i in ids])
         # Replace spaces before the specified punctuations
-        text = re.sub(r'\s+([,.?!"()\'])', r'\1', text)
+        text = re.sub(r'\s+([,.?!"()\'])', r"\1", text)
         return text
-        
+
+
 # tokenizer = SimpleTokenizerV1(vocab)
 # text = """
 # "It's the last he painted, you know,"
@@ -57,7 +58,7 @@ tokenizer = tiktoken.get_encoding("gpt2")
 
 text = (
     "Hello, do you like tea? <|endoftext|> In the sunlit terraces"
-     "of someunknownPlace."
+    "of someunknownPlace."
 )
 
 # integers = tokenizer.encode(text, allowed_special={"<|endoftext|>"})
@@ -78,7 +79,7 @@ enc_sample = enc_text[50:]
 context_size = 4
 
 x = enc_sample[:context_size]
-y = enc_sample[1:context_size+1]
+y = enc_sample[1 : context_size + 1]
 # print(f"x: {x}")
 # print(f"y:    {y}")
 
@@ -88,11 +89,12 @@ y = enc_sample[1:context_size+1]
 
 #     print(context, "---->", desired)
 
-for i in range(1, context_size+1):
+for i in range(1, context_size + 1):
     context = enc_sample[:i]
     desired = enc_sample[i]
 
     # print(tokenizer.decode(context), "---->", tokenizer.decode([desired]))
 
 import torch
+
 print("PyTorch version:", torch.__version__)

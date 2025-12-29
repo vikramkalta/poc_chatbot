@@ -50,6 +50,7 @@ def infer(
     instruction: str,
     input_text_field: str,
     max_new_tokens: int,
+    return_response: bool = False,
 ):
     device = select_device()
     tokenizer = tiktoken.get_encoding("gpt2")
@@ -72,21 +73,17 @@ def infer(
         context_size=config["context_length"],
         eos_id=50256,
     )
-    print('token_ids', token_ids)
-    print('token_ids length', len(token_ids))
     generated_text = token_ids_to_text(token_ids, tokenizer)
-    print('generated_text', generated_text)
-    print('generated_text length', len(generated_text))
-    response_text = (
-        generated_text[len(prompt) :]
-        .replace("### Response:", "")
-        .strip()
-    )
+    response_text = generated_text[len(prompt) :].replace("### Response:", "").strip()
+    if return_response:
+        return response_text
     print("Prompt:\n" + prompt)
     print("\nModel response:\n>> " + response_text)
 
 
-def infer_from_dataset(weights_path: str, model_choice: str, dataset_path: str, k: int, max_new_tokens: int):
+def infer_from_dataset(
+    weights_path: str, model_choice: str, dataset_path: str, k: int, max_new_tokens: int
+):
     if not os.path.exists(dataset_path):
         raise FileNotFoundError(f"Dataset file not found: {dataset_path}")
 
@@ -116,9 +113,7 @@ def infer_from_dataset(weights_path: str, model_choice: str, dataset_path: str, 
         )
         generated_text = token_ids_to_text(token_ids, tokenizer)
         response_text = (
-            generated_text[len(prompt) :]
-            .replace("### Response:", "")
-            .strip()
+            generated_text[len(prompt) :].replace("### Response:", "").strip()
         )
         print("-------------------------------------")
         print(f"Example {i+1}")
@@ -150,16 +145,35 @@ def main():
         help="Path to fine-tuned weights .pth file. Defaults to <model_choice>-sft.pth naming.",
     )
     # parser.add_argument("--instruction", type=str, default="Explain the moon phases in simple terms.")
-    parser.add_argument("--instruction", type=str, default="Provide guidance for the following user query.")
+    parser.add_argument(
+        "--instruction",
+        type=str,
+        default="Provide guidance for the following user query.",
+    )
     # parser.add_argument("--instruction", type=str, default="")
     # parser.add_argument("--instruction", type=str, default="Rewrite the sentence using a simile.")
     # parser.add_argument("--input", dest="input_field", type=str, default="Uploading a document for verification")
-    parser.add_argument("--input", dest="input_field", type=str, default="my transfer is still showing pending")
+    parser.add_argument(
+        "--input",
+        dest="input_field",
+        type=str,
+        default="my transfer is still showing pending",
+    )
     # parser.add_argument("--input", dest="input_field", type=str, default="The car is very fast.")
     # parser.add_argument("--input", dest="input_field", type=str, default="")
     parser.add_argument("--max_new_tokens", type=int, default=256)
-    parser.add_argument("--dataset", type=str, default=None, help="Optional path to instruction-data.json to sample from")
-    parser.add_argument("--k", type=int, default=3, help="Number of dataset examples to run if --dataset is provided")
+    parser.add_argument(
+        "--dataset",
+        type=str,
+        default=None,
+        help="Optional path to instruction-data.json to sample from",
+    )
+    parser.add_argument(
+        "--k",
+        type=int,
+        default=3,
+        help="Number of dataset examples to run if --dataset is provided",
+    )
 
     args = parser.parse_args()
 
@@ -168,9 +182,17 @@ def main():
         raise FileNotFoundError(f"Weights not found: {weights_path}")
 
     if args.dataset:
-        infer_from_dataset(weights_path, args.model_choice, args.dataset, args.k, args.max_new_tokens)
+        infer_from_dataset(
+            weights_path, args.model_choice, args.dataset, args.k, args.max_new_tokens
+        )
     else:
-        infer(weights_path, args.model_choice, args.instruction, args.input_field, args.max_new_tokens)
+        infer(
+            weights_path,
+            args.model_choice,
+            args.instruction,
+            args.input_field,
+            args.max_new_tokens,
+        )
 
 
 if __name__ == "__main__":
